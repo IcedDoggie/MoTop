@@ -1,0 +1,15 @@
+artifact_uri: file:///home/hq/Documents/WorkingRepos/MoTop/mlruns/178916748555003084/99b2082c0431424688ac2ad915a1a9f2/artifacts
+end_time: 1790341334702
+entry_point_name: ''
+experiment_id: '178916748555003084'
+lifecycle_stage: active
+run_id: 99b2082c0431424688ac2ad915a1a9f2
+run_name: /home/hq/Documents/Weights/CD6ME/random/40_casme/mlflow
+run_uuid: 99b2082c0431424688ac2ad915a1a9f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790341334654
+status: 3
+tags: []
+user_id: hq
