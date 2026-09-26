@@ -64,7 +64,7 @@ df = pd.read_csv("metadata_csv/cross_dataset_seq.csv")
 dataset_path = "/home/hq/Documents/data"
 
 # weights_path = "/home/hq/Documents/Weights/CD6ME"
-weights_path = "/media/hq/ExtraSpace/Weights/CD6ME"
+weights_path = "/home/hq/Documents/Weights/CD6ME"
 
 mag_weights = "/media/hq/ExtraSpace/Weights/Magnification/generator_212000.pth"
 
@@ -148,10 +148,7 @@ for dataset_fold in dataset:
     cd6me_test_landmarks = LandmarksDataset(
         config=LandmarksDataset_Config, dataframe=df
     )
-    cd6me_test_geometry = Landmarks3DDataset(
-        config=LandmarksDataset_Config, dataframe=df
-    )
-    cd6me_test_smirk = SMIRKDataset(config=LandmarksDataset_Config, dataframe=df)
+
 
     cd6me_test_motion = CD6ME_Apex_Dataset(
         dataset_path=dataset_path,
